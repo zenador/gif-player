@@ -8,7 +8,7 @@
 
 WebComponent to control Animated GIF playback and access individual frames.
 
-[More demos](https://captaincodeman.github.io/gif-player/components/gif-player/demo/)
+[Customisable demo](https://zenador.github.io/gif-player/components/gif-player/demo/)
 
 Move your mouse over the images ...
 <!--
@@ -81,3 +81,9 @@ It's not fully finished yet but it works pretty well for what I needed. Here are
 * Use css for cover / contain settings
 
 Save decoded data so it isn't decompressed for every frame
+
+## Fork
+
+This fork has no changes to the WebComponent, it only modifies the demo so users can load custom images to their liking without having to clone the repo and modify the source code.
+
+However, if you want to test this locally, switch to the `gh-pages` branch and run a web server from the `components` folder.
